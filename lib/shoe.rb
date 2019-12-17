@@ -4,7 +4,7 @@ attr_accessor :brand, :color, :size, :material, :condition
 
 attr_writer
   
-def initialize(brand, condition = "new")
+def initialize(brand, condition= "new")
   @brand = brand
 end 
 
